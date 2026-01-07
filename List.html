@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists in HTML</title>
+</head>
+<body>
+    <h6>Unordered Lists:</h6>
+    <!-- .UL: Unordered List -->
+     <!-- type: disc(default),square,circle -->
+
+     <ul type="circle">
+        <!-- li: List item -->
+         <li>English</li>
+         <li>Hindi</li>
+         <li>Math</li>
+         <li>Science</li>
+     </ul>
+     <h6>Ordered Lists:</h6>
+     <!-- OL: Ordered List -->
+      <!-- type: 1(default),A,a,i,I -->
+
+      <ol start="1" type="1">
+        <li>English</li>
+        <ol start="1" type="A">
+            <li>Parts of Speech</li>
+            <li>Grammar</li>
+            <li>Sentence</li>
+            <li>Words</li>
+            <ul type="square">
+                <li>Dummy1</li>
+                <li>Dummy2</li>
+            </ul>
+            <li>Content</li>
+        </ol>
+        <li>Hindi</li>
+        <li>Math</li>
+        <li>Science</li>
+      </ol>
+
+      <h6>Definition List:</h6>
+      <!-- DL: Definition List -->
+       <dl>
+        <!-- dt: definition term -->
+         <dt>HTML:</dt>
+         <!-- dd: definition description -->
+          <dd>Hyper Text Markup Lamguage.</dd>
+
+          <dt>CSS:</dt>
+          <dd>Cascading Style Sheets.</dd>
+
+          <dt>JS</dt>
+          <dd>JavaScript.</dd>
+       </dl>
+</body>
+</html>
